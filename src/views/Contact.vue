@@ -1,45 +1,45 @@
 <template>
-  <div class="min-h-screen bg-white">
-    <div class="container py-20">
+  <div>
+    <div class="container mx-auto py-16 px-6 md:px-8">
       <div class="max-w-2xl mx-auto">
-        <h1 class="text-4xl font-display font-bold text-primary-900 text-center mb-8">Contact Us</h1>
-        <p class="text-lg text-secondary-600 text-center mb-12">
+        <h1 class="text-4xl font-display font-bold bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text text-transparent text-center mb-8">Contact Us</h1>
+        <p class="text-lg text-gray-600 text-center mb-12">
           Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
         </p>
         
-        <form class="space-y-6">
+        <form class="space-y-8 bg-white/80 backdrop-blur-sm p-8 md:p-10 rounded-2xl shadow-xl border border-gray-100">
           <div>
-            <label for="name" class="block text-sm font-medium text-secondary-900">Name</label>
+            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
             <input
               type="text"
               id="name"
-              class="mt-1 block w-full rounded-md border-secondary-300 shadow-sm focus:border-primary-500 focus:ring-primary-500"
+              class="mt-2 block w-full px-4 py-3 rounded-xl border-gray-200 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all duration-300"
               required
             >
           </div>
           
           <div>
-            <label for="email" class="block text-sm font-medium text-secondary-900">Email</label>
+            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
             <input
               type="email"
               id="email"
-              class="mt-1 block w-full rounded-md border-secondary-300 shadow-sm focus:border-primary-500 focus:ring-primary-500"
+              class="mt-2 block w-full px-4 py-3 rounded-xl border-gray-200 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all duration-300"
               required
             >
           </div>
           
           <div>
-            <label for="message" class="block text-sm font-medium text-secondary-900">Message</label>
+            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
             <textarea
               id="message"
               rows="4"
-              class="mt-1 block w-full rounded-md border-secondary-300 shadow-sm focus:border-primary-500 focus:ring-primary-500"
+              class="mt-2 block w-full px-4 py-3 rounded-xl border-gray-200 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 transition-all duration-300"
               required
             ></textarea>
           </div>
           
           <div>
-            <button type="submit" class="w-full btn-primary">
+            <button type="submit" class="w-full px-6 py-3 rounded-full bg-gradient-to-r from-indigo-600 to-pink-600 text-white font-medium hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
               Send Message
             </button>
           </div>
