@@ -7,4 +7,4 @@ export NVM_DIR="/root/.nvm"
 
 npm install
 
-npm run dev -- --host 0.0.0.0 --port 5173
+nohup npm run dev -- --host 0.0.0.0 --port 5173 > /dev/null 2>&1 &
